@@ -472,14 +472,21 @@ div p{
 }
 @media only screen and (max-width: 720px) {
     section{
+        height: 1500px;
+        width: auto;
         margin: 0px;
     }
     .pabout{
         margin: 0%;
     }
-    .block-home{
+    .block{
         display: block;
         height: 1500px;
+        width: 100%;
+    }
+    .block-home{
+        display: block;
+        height: 800px;
         width: auto;
     }
     .block2{
@@ -532,10 +539,10 @@ li{
     width: 90%;
 }
 .divprod{
-    height: 300px;
+    height: 400px;
 }
 .divprod2{
-    height: 300px;
+    height: 400px;
 }   
 .textpanel{
     text-align: justify;
