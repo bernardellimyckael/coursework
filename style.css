@@ -673,3 +673,36 @@ div p {
 
     }
 }
+@media only screen and (max-width: 375px){
+    main{
+        height:1000px;
+      
+    }
+    body{
+      height: 1000px;  
+    }
+    .incont{
+        height: 200px;
+    }
+    #butcenter385{
+      margin-top: 10px; 
+      margin-left: 75px;
+    }
+}  
+
+@media only screen and (max-width: 320px){
+    main{
+        height:1000px;
+      
+    }
+    body{
+      height: 1000px;  
+    }
+    .incont{
+        height: 200px;
+    }
+    #butcenter385{
+      margin-top: 10px; 
+      margin-left: 75px;
+    }
+}
